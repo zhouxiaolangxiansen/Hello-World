@@ -23,4 +23,4 @@ typedef T_U8* T_pDATA;          //pointer of data
 #define T_S16_MIN   ((T_S16)(-32767L-1L))       //minimux T_S16 value
 #define T_S16_MAX   ((T_S16)32767L)             //maximun T_S16 value
 #define T_S32_MIN   ((T_S32)(-2147483647L-1L))  //minimun T_S32 value
-#defien T_S32_MAX   ((T_S32)2147483647L)        //maximun T_S32 value
+#define T_S32_MAX   ((T_S32)2147483647L)        //maximun T_S32 value
