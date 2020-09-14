@@ -15,7 +15,7 @@
 
 
 示例：
-/**                           //文件头
+/**                           			//文件头
  * @file time.h
  * @brief the declare of interface about hardware abstract timer
  * @copyright (C) 2020 TWS technology（GuangZhou） Ltd
@@ -25,16 +25,16 @@
  */
  
      
- 							                //（2）API调用示例
-							                //（3）预处理块定义
+ 						//（2）API调用示例
+						//（3）预处理块定义
 #ifndef _TIMER_H			        //（4）#include区		
 #define _THMER_H 
 #include <math.h>
 #include "typedef.h"
 
-const T_S8 MAX_NUMBER;		    //（5）常量定义
+const T_S8 MAX_NUMBER;		    		//（5）常量定义
 
-#define LCD_MAIN_TIMER 128; 	//（6）全局宏定义
+#define LCD_MAIN_TIMER 128; 			//（6）全局宏定义
 
 typedef sreuct				        //（7）全局数据类型定义
 {
@@ -48,7 +48,7 @@ typedf enum
 	EM_INACTIVE;	
 }T_TIME_STATE;
 
-extern T_pDATA g_pxxxxx;	    //（8）全局变量定义
+extern T_pDATA g_pxxxxx;	    		//（8）全局变量定义
 
 /*							
  * @bried Initialize all physical timer
@@ -57,7 +57,7 @@ extern T_pDATA g_pxxxxx;	    //（8）全局变量定义
  * @param in void
  * @return void
  */
-T_VOID Hal_Init_Timer(T_VOID);//（9）全局函数声明
+T_VOID Hal_Init_Timer(T_VOID);			//（9）全局函数声明
 
 /*
  * @brief Initialize the specified physical timer 
